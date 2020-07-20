@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family= Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css?family= Muli&display=swap");
+
+ul{
+ 
+  top: -20px;
+  float: right;
+  color: white;
+  font-family: 'Muli';
+
+}
+
+.header h1{
+  margin-left: 400px;
+  font-family: "Berkshire Swash";
+  color: white;
+}
+
+.header{
+  border: 1px solid black;
+  background-color: rgb(3, 3, 43);
+  height: 160px;
+}
+
+input{
+  border: 1px solid blue;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+
+.navigation a{
+ 
+  margin-left: 20px;
+  text-align: center;
+  padding: 3px 6px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.navigation a:hover{
+  background-color: rgb(4, 4, 78);
+}
+
+.sign-in a{
+
+  float: right;
+  text-decoration: none;
+  color: black;
+  padding: 2px 4px;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.sign-in a:hover{
+  color: red;
+}
+
+
+.mid-page{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 40px;
+  
+  border-radius: 4px;
+  
+}
+
+.categories{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 40px;
+  
+  border-radius: 4px;
+}
+
+h2{
+  font-size: 1.2em;
+}
